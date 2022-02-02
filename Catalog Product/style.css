@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  z-index: 1;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+/* Header */
+header {
+  z-index: 999;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  padding: 15px;
+  transition: 0.5s ease;
+}
+
+header .brand {
+  color: white;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-shadow: 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* Jarak */
+.jarak {
+  margin-top: 9rem;
+}
+
+/* Catalog Products */
+.container32 .title-catalog {
+  padding-bottom: 7px;
+}
+
+.garis1 {
+  width: 80px;
+  height: 4px;
+  background-color: #cc3554;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.container32 #search-box {
+  width: 300px;
+  border: 3px solid #000;
+  padding: 8px 5px;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+.container32 .image-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-top: 30px;
+}
+
+.container32 .image-container .image1 {
+  padding: 15px;
+  background-color: white;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.container32 .image-container .image1 img {
+  object-fit: cover;
+  mask-border: 10px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.container32 .image-container .image1 img:hover {
+  transform: scale(1.1);
+}
+
+.container32 .image-container .image1 h3 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.container32 .image-container .image1 .price {
+  font-size: 17px;
+}
+
+.container32 .image-container .image1 .star {
+  font-size: 17px;
+  padding-left: 35%;
+  color: #ffc400;
+}
+
+.buy {
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+}
+.buy a {
+  text-decoration: none;
+}
+.buy a h4 {
+  font-size: 15px;
+  margin-top: 2px;
+  text-decoration: #cc3554;
+  color: rgb(255, 255, 255);
+  background: #cc3554;
+  padding: 5px;
+  height: 30px;
+  width: 75px;
+  border-radius: 5px;
+  text-align: center;
+  align-items: center;
+}
+
+.buy a h4:hover {
+  text-decoration: none;
+  background: black;
+}
+.buy a h4 span {
+  text-decoration: none;
+}
+
+.buy a h4 span:hover {
+  text-decoration: none;
+}
+
+/* penutup */
+.penutup {
+  align-items: center;
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+  text-align: center;
+  color: #000000;
+}
+
+.penutup h2 {
+  font-size: 20px;
+}
+
+.penutup h3 {
+  font-size: 15px;
+}

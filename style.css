@@ -105,7 +105,7 @@ section {
 }
 
 .home .content h1 {
-  font-size: 3.8em;
+  font-size: 3.5em;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 4px;
@@ -246,8 +246,9 @@ section {
   }
 
   header .navigation .navigation-items a:before {
-    background: #222;
+    background: #cc3554;
     height: 5px;
+    border-radius: 2px;
   }
 
   header .navigation.active .navigation-items {
@@ -355,10 +356,12 @@ section {
   text-transform: uppercase;
   margin-top: 50px;
   text-align: center;
+  padding-right: 15px;
 }
 
 .about1 p {
   font-size: 15px;
+  text-align: center;
 }
 
 @media (min-width: 992px) {

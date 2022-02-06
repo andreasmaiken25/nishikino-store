@@ -48,6 +48,7 @@ header .navigation .navigation-items a {
   margin-left: 30px;
   transition: 0, 3s ease;
   text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+  margin-bottom: 15px;
 }
 
 header .navigation .navigation-items a:before {
@@ -274,6 +275,16 @@ section {
     transition: 0.3s ease;
   }
 
+  .menu-btn:hover {
+    background: url(img/Navbar/menu-2.png) no-repeat;
+    background-size: 30px;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
   .menu-btn.active {
     z-index: 999;
     background: url(img/Navbar/close.png) no-repeat;
@@ -297,21 +308,17 @@ section {
   margin-bottom: 8px;
 }
 
+/* Testomial */
 .testimoniall {
   margin-left: auto;
   margin-right: auto;
 }
+
 .testimoniall figure img {
   width: 90px;
   border-radius: 100%;
   margin: 2px 25px;
   margin-bottom: 5px;
-  box-shadow: 1px black;
-}
-
-.testimoniall figure img:hover {
-  box-shadow: 5px;
-  color: black;
 }
 
 .testimoniall figure h5 {
@@ -503,6 +510,11 @@ section {
 /* Catalog Product */
 .container32 .title-catalog {
   padding-bottom: 7px;
+  padding-top: 3.5rem;
+}
+
+.container32 .title-catalogg {
+  padding-bottom: 7px;
 }
 
 .garis1 {
@@ -637,6 +649,13 @@ section {
   background: white;
   padding: 30px;
   border-radius: 20px;
+}
+
+.testimonial:hover {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  transition: 0.2 ease;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 

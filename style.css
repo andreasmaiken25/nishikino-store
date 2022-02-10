@@ -702,8 +702,8 @@ section {
 .view-more a {
   margin-top: 4rem;
   display: grid;
-  height: 50px;
-  width: 150px;
+  height: 55px;
+  width: 250px;
   background: #cc3554;
   position: absolute;
   margin: auto;
@@ -717,10 +717,12 @@ section {
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+  transition: 0.3s ease;
 }
 
 .view-more a:hover {
   background: black;
+  transition: 0.3s ease;
 }
 
 /* Contact */
